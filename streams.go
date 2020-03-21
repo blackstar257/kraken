@@ -4,6 +4,11 @@ import "time"
 
 // Stream ...
 type Stream struct {
+	Stream StreamSingle `json:"stream"`
+}
+
+// StreamSingle ...
+type StreamSingle struct {
 	ID                int           `json:"_id"`
 	Game              string        `json:"game"`
 	BroadcastPlatform string        `json:"broadcast_platform"`
