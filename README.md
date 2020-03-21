@@ -21,7 +21,7 @@ This project is a work in progress. Below is a list of currently supported endpo
 - [ ] Games
 - [ ] Ingests
 - [ ] Search
-- [ ] Streams
+- [x] Streams
 - [ ] Teams
 - [ ] Users
 - [ ] Videos
